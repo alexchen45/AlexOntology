@@ -1,0 +1,2907 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://alexdigitalimagingontology.com",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://alexdigitalimagingontology.com/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "No IRI set"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.16",
+      "translation": [
+        570.67,
+        227.37
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId25",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId26",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId27",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId28",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId29",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId30",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId31",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId32",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId33",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId34",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId35",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId36",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId37",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId38",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId39",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId40",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId42",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId43",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId41",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId44",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId45",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId46",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId50",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId49",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId47",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId51",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId52",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId53",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId54",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId55",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId56",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId59",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId57",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId61",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId62",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId63",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId64",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId65",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId66",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId73",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId68",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId74",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId71",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId69",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId72",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId70",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId75",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId76",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId77",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId79",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId80",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId78",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId81",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId82",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "NodeId83",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId84",
+      "type": "rdfs:Datatype"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://alexdigitalimagingontology.com/Gamma",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "Gamma"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/GAMMA24",
+          "labels": {
+            "IRI-based": "GAMMA24"
+          }
+        }
+      ],
+      "pos": [
+        -219.14,
+        828.31
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://alexdigitalimagingontology.com/Codec",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "Codec"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/ProRes422",
+          "labels": {
+            "IRI-based": "ProRes422"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/ProRes4444",
+          "labels": {
+            "IRI-based": "ProRes4444"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/H265",
+          "labels": {
+            "IRI-based": "H265"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/H264",
+          "labels": {
+            "IRI-based": "H264"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/ARRIRAW",
+          "labels": {
+            "IRI-based": "ARRIRAW"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/CanonRaw",
+          "labels": {
+            "IRI-based": "CanonRaw"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/ProResRaw",
+          "labels": {
+            "IRI-based": "ProResRaw"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/BRAW",
+          "labels": {
+            "IRI-based": "BRAW"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/R3D",
+          "labels": {
+            "IRI-based": "R3D"
+          }
+        }
+      ],
+      "pos": [
+        -16.72,
+        990.16
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://alexdigitalimagingontology.com/Lighting",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "Lighting"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/FORZA50",
+          "labels": {
+            "IRI-based": "FORZA50"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/120D",
+          "labels": {
+            "IRI-based": "120D"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/120T",
+          "labels": {
+            "IRI-based": "120T"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/300DII",
+          "labels": {
+            "IRI-based": "300DII"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/M40",
+          "labels": {
+            "IRI-based": "M40"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/M18",
+          "labels": {
+            "IRI-based": "M18"
+          }
+        }
+      ],
+      "pos": [
+        2230.9,
+        -34.42
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://alexdigitalimagingontology.com/Resolution",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "Resolution"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/6K",
+          "labels": {
+            "IRI-based": "6K"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/8K",
+          "labels": {
+            "IRI-based": "8K"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/4K",
+          "labels": {
+            "IRI-based": "4K"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/3-4K",
+          "labels": {
+            "IRI-based": "3-4K"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/1080p",
+          "labels": {
+            "IRI-based": "1080p"
+          }
+        }
+      ],
+      "pos": [
+        -126.07,
+        -320.25
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://alexdigitalimagingontology.com/Lens",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "Lens"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/MILVUS35",
+          "labels": {
+            "IRI-based": "MILVUS35"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/MILVUS25",
+          "labels": {
+            "IRI-based": "MILVUS25"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/CANON70200II",
+          "labels": {
+            "IRI-based": "CANON70200II"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA50",
+          "labels": {
+            "IRI-based": "SIGMA50"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA85",
+          "labels": {
+            "IRI-based": "SIGMA85"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA50100",
+          "labels": {
+            "IRI-based": "SIGMA50100"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA2470DNL",
+          "labels": {
+            "IRI-based": "SIGMA2470DNL"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA20",
+          "labels": {
+            "IRI-based": "SIGMA20"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA24",
+          "labels": {
+            "IRI-based": "SIGMA24"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA1835",
+          "labels": {
+            "IRI-based": "SIGMA1835"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA35",
+          "labels": {
+            "IRI-based": "SIGMA35"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA2470DNE",
+          "labels": {
+            "IRI-based": "SIGMA2470DNE"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SIGMA1424",
+          "labels": {
+            "IRI-based": "SIGMA1424"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/MILVUS85",
+          "labels": {
+            "IRI-based": "MILVUS85"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/MILVUS50",
+          "labels": {
+            "IRI-based": "MILVUS50"
+          }
+        }
+      ],
+      "pos": [
+        1432.39,
+        1483.16
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://alexdigitalimagingontology.com/LensMount",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "LensMount"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/EF",
+          "labels": {
+            "IRI-based": "EF"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/MTF",
+          "labels": {
+            "IRI-based": "MTF"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/L",
+          "labels": {
+            "IRI-based": "L"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/PL",
+          "labels": {
+            "IRI-based": "PL"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/E",
+          "labels": {
+            "IRI-based": "E"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/RF",
+          "labels": {
+            "IRI-based": "RF"
+          }
+        }
+      ],
+      "pos": [
+        825.78,
+        1235.08
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://alexdigitalimagingontology.com/ColorFilterArray",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "ColorFilterArray"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/BAYER",
+          "labels": {
+            "IRI-based": "BAYER"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/RGBCFA",
+          "labels": {
+            "IRI-based": "RGBCFA"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/QuadBAYER",
+          "labels": {
+            "IRI-based": "QuadBAYER"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/Monochrome",
+          "labels": {
+            "IRI-based": "Monochrome"
+          }
+        }
+      ],
+      "pos": [
+        882.74,
+        -790.91
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://alexdigitalimagingontology.com/CameraSignalProcessing",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "CameraSignalProcessing"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/SDI_12G",
+          "labels": {
+            "IRI-based": "SDI_12G"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/HDMI2",
+          "labels": {
+            "IRI-based": "HDMI2"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SDI_6G",
+          "labels": {
+            "IRI-based": "SDI_6G"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/WIFI",
+          "labels": {
+            "IRI-based": "WIFI"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SDI_3G",
+          "labels": {
+            "IRI-based": "SDI_3G"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/HDMI1-4",
+          "labels": {
+            "IRI-based": "HDMI1-4"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/HDMI2-1",
+          "labels": {
+            "IRI-based": "HDMI2-1"
+          }
+        }
+      ],
+      "pos": [
+        1015.63,
+        388.87
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://alexdigitalimagingontology.com/CinemaCamera",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "CinemaCamera"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/C200",
+          "labels": {
+            "IRI-based": "C200"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/ALEXA_MINI",
+          "labels": {
+            "IRI-based": "ALEXA_MINI"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/S1H",
+          "labels": {
+            "IRI-based": "S1H"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/KOMODO",
+          "labels": {
+            "IRI-based": "KOMODO"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/BMPCC4K",
+          "labels": {
+            "IRI-based": "BMPCC4K"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/A7SIII",
+          "labels": {
+            "IRI-based": "A7SIII"
+          }
+        }
+      ],
+      "pos": [
+        399.88,
+        551.28
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://alexdigitalimagingontology.com/Movie",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "Movie"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/NanliaoHarbour",
+          "labels": {
+            "IRI-based": "NanliaoHarbour"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/Ogygia",
+          "labels": {
+            "IRI-based": "Ogygia"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/TheEscape",
+          "labels": {
+            "IRI-based": "TheEscape"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/AnimalPortraits",
+          "labels": {
+            "IRI-based": "AnimalPortraits"
+          }
+        }
+      ],
+      "pos": [
+        -181.43,
+        395.62
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://alexdigitalimagingontology.com/ColorSpace",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "ColorSpace"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/DCIP3",
+          "labels": {
+            "IRI-based": "DCIP3"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/REDWideGamutRGB",
+          "labels": {
+            "IRI-based": "REDWideGamutRGB"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/BMDFilm",
+          "labels": {
+            "IRI-based": "BMDFilm"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/REC709",
+          "labels": {
+            "IRI-based": "REC709"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/REC2020",
+          "labels": {
+            "IRI-based": "REC2020"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SGAMUT",
+          "labels": {
+            "IRI-based": "SGAMUT"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/ALEXAWideGamut",
+          "labels": {
+            "IRI-based": "ALEXAWideGamut"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/BMDVideo",
+          "labels": {
+            "IRI-based": "BMDVideo"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/VGAMUT",
+          "labels": {
+            "IRI-based": "VGAMUT"
+          }
+        }
+      ],
+      "pos": [
+        97.9,
+        109.82
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://alexdigitalimagingontology.com/CameraSensor",
+      "baseIri": "http://alexdigitalimagingontology.com",
+      "label": {
+        "IRI-based": "CameraSensor"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://alexdigitalimagingontology.com/IMX294",
+          "labels": {
+            "IRI-based": "IMX294"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/SonyFF",
+          "labels": {
+            "IRI-based": "SonyFF"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/IMX410",
+          "labels": {
+            "IRI-based": "IMX410"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/KomodoSensor",
+          "labels": {
+            "IRI-based": "KomodoSensor"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/ALEVIII",
+          "labels": {
+            "IRI-based": "ALEVIII"
+          }
+        },
+        {
+          "iri": "http://alexdigitalimagingontology.com/CanonS35",
+          "labels": {
+            "IRI-based": "CanonS35"
+          }
+        }
+      ],
+      "pos": [
+        495.42,
+        -305.17
+      ]
+    },
+    {
+      "id": "NodeId25",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        796.82,
+        -278.59
+      ]
+    },
+    {
+      "id": "NodeId26",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        779.42,
+        -414.14
+      ]
+    },
+    {
+      "id": "NodeId27",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        359.22,
+        -593.84
+      ]
+    },
+    {
+      "id": "NodeId28",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "pos": [
+        612.43,
+        -600.08
+      ]
+    },
+    {
+      "id": "NodeId29",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        491.19,
+        -633.5
+      ]
+    },
+    {
+      "id": "NodeId30",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1315.05,
+        313.82
+      ]
+    },
+    {
+      "id": "NodeId31",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1305.5,
+        471.34
+      ]
+    },
+    {
+      "id": "NodeId32",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1249.08,
+        178.58
+      ]
+    },
+    {
+      "id": "NodeId33",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        668.54,
+        394.43
+      ]
+    },
+    {
+      "id": "NodeId34",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        710.22,
+        605.68
+      ]
+    },
+    {
+      "id": "NodeId35",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        669.53,
+        726.04
+      ]
+    },
+    {
+      "id": "NodeId36",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        513.56,
+        842.76
+      ]
+    },
+    {
+      "id": "NodeId37",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        582.33,
+        304.82
+      ]
+    },
+    {
+      "id": "NodeId38",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        370.47,
+        874.11
+      ]
+    },
+    {
+      "id": "NodeId39",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        190.95,
+        700
+      ]
+    },
+    {
+      "id": "NodeId40",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -108.22,
+        -644.23
+      ]
+    },
+    {
+      "id": "NodeId42",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -255.53,
+        -625.06
+      ]
+    },
+    {
+      "id": "NodeId43",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -375.34,
+        -527.64
+      ]
+    },
+    {
+      "id": "NodeId41",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -423.98,
+        -382.48
+      ]
+    },
+    {
+      "id": "NodeId44",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        30.5,
+        1323.03
+      ]
+    },
+    {
+      "id": "NodeId45",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -107.6,
+        1325.2
+      ]
+    },
+    {
+      "id": "NodeId46",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -218.97,
+        1258.07
+      ]
+    },
+    {
+      "id": "NodeId50",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1050.08,
+        -1046.13
+      ]
+    },
+    {
+      "id": "NodeId49",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "pos": [
+        1157.16,
+        -911.31
+      ]
+    },
+    {
+      "id": "NodeId47",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1171.98,
+        -756.49
+      ]
+    },
+    {
+      "id": "NodeId51",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        851.2,
+        -1085.16
+      ]
+    },
+    {
+      "id": "NodeId52",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        316.51,
+        -66.9
+      ]
+    },
+    {
+      "id": "NodeId53",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        71.31,
+        -183.22
+      ]
+    },
+    {
+      "id": "NodeId54",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -131.47,
+        -95.75
+      ]
+    },
+    {
+      "id": "NodeId55",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "boolean",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -212.06,
+        76.67
+      ]
+    },
+    {
+      "id": "NodeId56",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -528.72,
+        861.65
+      ]
+    },
+    {
+      "id": "NodeId59",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "boolean",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -500.13,
+        990.62
+      ]
+    },
+    {
+      "id": "NodeId57",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -415.86,
+        1085.71
+      ]
+    },
+    {
+      "id": "NodeId61",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -474.35,
+        258.83
+      ]
+    },
+    {
+      "id": "NodeId62",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -509.76,
+        378.74
+      ]
+    },
+    {
+      "id": "NodeId63",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -477.84,
+        498.8
+      ]
+    },
+    {
+      "id": "NodeId64",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1470.59,
+        1815.22
+      ]
+    },
+    {
+      "id": "NodeId65",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1328.11,
+        1797.42
+      ]
+    },
+    {
+      "id": "NodeId66",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "boolean",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1219.19,
+        1706.87
+      ]
+    },
+    {
+      "id": "NodeId73",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "boolean",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1617.6,
+        1759.91
+      ]
+    },
+    {
+      "id": "NodeId68",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "boolean",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1713.53,
+        1651.15
+      ]
+    },
+    {
+      "id": "NodeId74",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1756.84,
+        1528.06
+      ]
+    },
+    {
+      "id": "NodeId71",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1755.41,
+        1405.84
+      ]
+    },
+    {
+      "id": "NodeId69",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1714.84,
+        1288.62
+      ]
+    },
+    {
+      "id": "NodeId72",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1621.74,
+        1204.37
+      ]
+    },
+    {
+      "id": "NodeId70",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "boolean",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1469.15,
+        1174.44
+      ]
+    },
+    {
+      "id": "NodeId75",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2073.33,
+        -276.92
+      ]
+    },
+    {
+      "id": "NodeId76",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2275.31,
+        -315.78
+      ]
+    },
+    {
+      "id": "NodeId77",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2484.75,
+        -52.24
+      ]
+    },
+    {
+      "id": "NodeId79",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2374.94,
+        212.79
+      ]
+    },
+    {
+      "id": "NodeId80",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2166.63,
+        241.23
+      ]
+    },
+    {
+      "id": "NodeId78",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1977.17,
+        -39.65
+      ]
+    },
+    {
+      "id": "NodeId81",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        940.38,
+        1504.34
+      ]
+    },
+    {
+      "id": "NodeId82",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        799.05,
+        1562
+      ]
+    },
+    {
+      "id": "NodeId83",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        676.98,
+        1532.48
+      ]
+    },
+    {
+      "id": "NodeId84",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        595.01,
+        1427.71
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "datatypeProperty15",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty16",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty17",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty18",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty19",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty20",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty21",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty22",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty23",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty24",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty25",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty26",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty27",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty28",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty29",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty30",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty31",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty32",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty33",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty34",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty35",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty36",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty37",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty38",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty39",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty40",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty41",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty42",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty43",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty44",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty45",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty46",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty47",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty48",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty49",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty50",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty51",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty52",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty53",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty54",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty56",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty58",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty59",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty60",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty61",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty62",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty63",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty64",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty65",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty66",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty67",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty68",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty69",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty70",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty71",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty72",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty73",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty74",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty75",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty76",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty77",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty78",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty79",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty80",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty81",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty82",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty83",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty84",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty85",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty86",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "datatypeProperty15",
+      "iri": "No IRI setNo IRI setNo IRI setManufacturer",
+      "baseIri": "No IRI set",
+      "label": "Manufacturer_CameraSensor",
+      "domain": "11",
+      "range": "NodeId25",
+      "pos": [
+        668.02,
+        -289.95
+      ]
+    },
+    {
+      "id": "datatypeProperty16",
+      "iri": "No IRI setNo IRI setNo IRI setModel",
+      "baseIri": "No IRI set",
+      "label": "Model_CameraSensor",
+      "domain": "11",
+      "range": "NodeId26",
+      "pos": [
+        657.33,
+        -367.3
+      ]
+    },
+    {
+      "id": "datatypeProperty17",
+      "iri": "No IRI setNo IRI setIlluminationType",
+      "baseIri": "No IRI set",
+      "label": "IlluminationType",
+      "domain": "11",
+      "range": "NodeId27",
+      "pos": [
+        414.62,
+        -476.42
+      ]
+    },
+    {
+      "id": "datatypeProperty18",
+      "iri": "No IRI setNo IRI setNo IRI setWidth",
+      "baseIri": "No IRI set",
+      "label": "Width_CameraSensor",
+      "domain": "11",
+      "range": "NodeId28",
+      "pos": [
+        564.95,
+        -480.42
+      ]
+    },
+    {
+      "id": "datatypeProperty19",
+      "iri": "No IRI setNo IRI setNo IRI setHeight",
+      "baseIri": "No IRI set",
+      "label": "Height_CameraSensor",
+      "domain": "11",
+      "range": "NodeId29",
+      "pos": [
+        492.92,
+        -499.61
+      ]
+    },
+    {
+      "id": "objectProperty20",
+      "iri": "No IRI setNo IRI setColorFilterArray",
+      "baseIri": "No IRI set",
+      "label": "ColorFilterArray",
+      "domain": "6",
+      "range": "11",
+      "pos": [
+        689.92,
+        -549.09
+      ]
+    },
+    {
+      "id": "objectProperty21",
+      "iri": "No IRI setNo IRI setNo IRI setResolution",
+      "baseIri": "No IRI set",
+      "label": "Resolution_CameraSensor",
+      "domain": "3",
+      "range": "11",
+      "pos": [
+        184.06,
+        -312.72
+      ]
+    },
+    {
+      "id": "datatypeProperty22",
+      "iri": "No IRI setNo IRI setProtocolType",
+      "baseIri": "No IRI set",
+      "label": "ProtocolType",
+      "domain": "7",
+      "range": "NodeId30",
+      "pos": [
+        1186.83,
+        345.96
+      ]
+    },
+    {
+      "id": "datatypeProperty23",
+      "iri": "No IRI setNo IRI setMaxResolutionFPS",
+      "baseIri": "No IRI set",
+      "label": "MaxResolutionFPS",
+      "domain": "7",
+      "range": "NodeId31",
+      "pos": [
+        1181.76,
+        436.14
+      ]
+    },
+    {
+      "id": "datatypeProperty24",
+      "iri": "No IRI setNo IRI setPhysicalMedium",
+      "baseIri": "No IRI set",
+      "label": "PhysicalMedium",
+      "domain": "7",
+      "range": "NodeId32",
+      "pos": [
+        1153.42,
+        264.75
+      ]
+    },
+    {
+      "id": "datatypeProperty25",
+      "iri": "No IRI setNo IRI setManufacturer_CinemaCamera",
+      "baseIri": "No IRI set",
+      "label": "Manufacturer_CinemaCamera",
+      "domain": "8",
+      "range": "NodeId33",
+      "pos": [
+        556.11,
+        460.07
+      ]
+    },
+    {
+      "id": "datatypeProperty26",
+      "iri": "No IRI setNo IRI setModel_CinemaCamera",
+      "baseIri": "No IRI set",
+      "label": "Model_CinemaCamera",
+      "domain": "8",
+      "range": "NodeId34",
+      "pos": [
+        576.55,
+        582.25
+      ]
+    },
+    {
+      "id": "datatypeProperty27",
+      "iri": "No IRI setNo IRI setReleaseYear",
+      "baseIri": "No IRI set",
+      "label": "ReleaseYear",
+      "domain": "8",
+      "range": "NodeId35",
+      "pos": [
+        556.6,
+        652.85
+      ]
+    },
+    {
+      "id": "objectProperty28",
+      "iri": "No IRI setNo IRI setSensor",
+      "baseIri": "No IRI set",
+      "label": "Sensor",
+      "attributes": [
+        "object"
+      ],
+      "domain": "11",
+      "range": "8",
+      "pos": [
+        447.65,
+        123.06
+      ]
+    },
+    {
+      "id": "objectProperty29",
+      "iri": "No IRI setNo IRI setSignalProcessingType",
+      "baseIri": "No IRI set",
+      "label": "SignalProcessingType",
+      "attributes": [
+        "object"
+      ],
+      "domain": "7",
+      "range": "8",
+      "pos": [
+        707.24,
+        470.21
+      ]
+    },
+    {
+      "id": "datatypeProperty30",
+      "iri": "No IRI setNo IRI setMaxFramerate",
+      "baseIri": "No IRI set",
+      "label": "MaxFramerate",
+      "domain": "8",
+      "range": "NodeId36",
+      "pos": [
+        467.59,
+        724.89
+      ]
+    },
+    {
+      "id": "datatypeProperty31",
+      "iri": "No IRI setNo IRI setMaxDataRate",
+      "baseIri": "No IRI set",
+      "label": "MaxDataRate",
+      "domain": "8",
+      "range": "NodeId37",
+      "pos": [
+        508.4,
+        404.69
+      ]
+    },
+    {
+      "id": "objectProperty32",
+      "iri": "No IRI setNo IRI setCodec",
+      "baseIri": "No IRI set",
+      "label": "Codec",
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "8",
+      "pos": [
+        192.56,
+        769.68
+      ]
+    },
+    {
+      "id": "objectProperty33",
+      "iri": "No IRI setNo IRI setNo IRI setLensMount",
+      "baseIri": "No IRI set",
+      "label": "LensMount_CinemaCamera",
+      "domain": "5",
+      "range": "8",
+      "pos": [
+        612.83,
+        893.18
+      ]
+    },
+    {
+      "id": "datatypeProperty34",
+      "iri": "No IRI setNo IRI setNativeISO",
+      "baseIri": "No IRI set",
+      "label": "NativeISO",
+      "domain": "8",
+      "range": "NodeId38",
+      "pos": [
+        382.43,
+        742.83
+      ]
+    },
+    {
+      "id": "datatypeProperty35",
+      "iri": "No IRI setNo IRI setDynamicRange",
+      "baseIri": "No IRI set",
+      "label": "DynamicRange",
+      "domain": "8",
+      "range": "NodeId39",
+      "pos": [
+        273.69,
+        641.1
+      ]
+    },
+    {
+      "id": "objectProperty36",
+      "iri": "No IRI setNo IRI setGamma_CinemaCamera",
+      "baseIri": "No IRI set",
+      "label": "Gamma_CinemaCamera",
+      "attributes": [
+        "object"
+      ],
+      "domain": "0",
+      "range": "8",
+      "pos": [
+        85.79,
+        691.84
+      ]
+    },
+    {
+      "id": "objectProperty37",
+      "iri": "No IRI setNo IRI setColorSpace_CinemaCamera",
+      "baseIri": "No IRI set",
+      "label": "ColorSpace_CinemaCamera",
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "8",
+      "pos": [
+        249.69,
+        331.73
+      ]
+    },
+    {
+      "id": "datatypeProperty38",
+      "iri": "No IRI setNo IRI setName_Resolution",
+      "baseIri": "No IRI set",
+      "label": "Name_Resolution",
+      "domain": "3",
+      "range": "NodeId40",
+      "pos": [
+        -115.51,
+        -511.85
+      ]
+    },
+    {
+      "id": "datatypeProperty39",
+      "iri": "No IRI setNo IRI setHeight_Resolution",
+      "baseIri": "No IRI set",
+      "label": "Height_Resolution",
+      "domain": "3",
+      "range": "NodeId41",
+      "pos": [
+        -294.71,
+        -355.47
+      ]
+    },
+    {
+      "id": "datatypeProperty40",
+      "iri": "No IRI setNo IRI setStandard_Resolution",
+      "baseIri": "No IRI set",
+      "label": "Standard_Resolution",
+      "domain": "3",
+      "range": "NodeId42",
+      "pos": [
+        -202.23,
+        -499.56
+      ]
+    },
+    {
+      "id": "datatypeProperty41",
+      "iri": "No IRI setNo IRI setWidth_Resolution",
+      "baseIri": "No IRI set",
+      "label": "Width_Resolution",
+      "domain": "3",
+      "range": "NodeId43",
+      "pos": [
+        -271.34,
+        -441.12
+      ]
+    },
+    {
+      "id": "datatypeProperty42",
+      "iri": "No IRI setNo IRI setDataRate",
+      "baseIri": "No IRI set",
+      "label": "DataRate",
+      "domain": "1",
+      "range": "NodeId44",
+      "pos": [
+        11.34,
+        1187.94
+      ]
+    },
+    {
+      "id": "datatypeProperty43",
+      "iri": "No IRI setNo IRI setBitDepth",
+      "baseIri": "No IRI set",
+      "label": "BitDepth",
+      "domain": "1",
+      "range": "NodeId45",
+      "pos": [
+        -70.41,
+        1188.11
+      ]
+    },
+    {
+      "id": "datatypeProperty44",
+      "iri": "No IRI setNo IRI setColorSampling",
+      "baseIri": "No IRI set",
+      "label": "ColorSampling",
+      "domain": "1",
+      "range": "NodeId46",
+      "pos": [
+        -136.19,
+        1148.41
+      ]
+    },
+    {
+      "id": "datatypeProperty45",
+      "iri": "No IRI setNo IRI setGreenRatio",
+      "baseIri": "No IRI set",
+      "label": "GreenRatio",
+      "domain": "6",
+      "range": "NodeId47",
+      "pos": [
+        1047.06,
+        -771.36
+      ]
+    },
+    {
+      "id": "datatypeProperty46",
+      "iri": "No IRI setNo IRI setNo IRI set",
+      "baseIri": "No IRI set",
+      "label": "RedRatio",
+      "domain": "6",
+      "range": "NodeId49",
+      "pos": [
+        1039.63,
+        -859.75
+      ]
+    },
+    {
+      "id": "datatypeProperty47",
+      "iri": "No IRI setNo IRI setTypeName_ColorFilterArray",
+      "baseIri": "No IRI set",
+      "label": "TypeName_ColorFilterArray",
+      "domain": "6",
+      "range": "NodeId50",
+      "pos": [
+        981.74,
+        -941.9
+      ]
+    },
+    {
+      "id": "datatypeProperty48",
+      "iri": "No IRI setNo IRI setBlueRatio",
+      "baseIri": "No IRI set",
+      "label": "BlueRatio",
+      "domain": "6",
+      "range": "NodeId51",
+      "pos": [
+        863.89,
+        -966.78
+      ]
+    },
+    {
+      "id": "datatypeProperty49",
+      "iri": "No IRI setNo IRI setWhitePoint",
+      "baseIri": "No IRI set",
+      "label": "WhitePoint",
+      "domain": "10",
+      "range": "NodeId52",
+      "pos": [
+        229.57,
+        3.38
+      ]
+    },
+    {
+      "id": "datatypeProperty50",
+      "iri": "No IRI setNo IRI setStandard_ColorSpace",
+      "baseIri": "No IRI set",
+      "label": "Standard_ColorSpace",
+      "domain": "10",
+      "range": "NodeId53",
+      "pos": [
+        81.74,
+        -68.26
+      ]
+    },
+    {
+      "id": "datatypeProperty51",
+      "iri": "No IRI setNo IRI setName_ColorSpace",
+      "baseIri": "No IRI set",
+      "label": "Name_ColorSpace",
+      "domain": "10",
+      "range": "NodeId54",
+      "pos": [
+        -38.54,
+        -12.47
+      ]
+    },
+    {
+      "id": "datatypeProperty52",
+      "iri": "No IRI setNo IRI setHDR_ColorSpace",
+      "baseIri": "No IRI set",
+      "label": "HDR_ColorSpace",
+      "domain": "10",
+      "range": "NodeId55",
+      "pos": [
+        -77.83,
+        91.02
+      ]
+    },
+    {
+      "id": "datatypeProperty53",
+      "iri": "No IRI setNo IRI setFunctionType",
+      "baseIri": "No IRI set",
+      "label": "FunctionType",
+      "domain": "0",
+      "range": "NodeId56",
+      "pos": [
+        -390.78,
+        846.8
+      ]
+    },
+    {
+      "id": "datatypeProperty54",
+      "iri": "No IRI setNo IRI setGreyLevel",
+      "baseIri": "No IRI set",
+      "label": "GreyLevel",
+      "domain": "0",
+      "range": "NodeId57",
+      "pos": [
+        -332.06,
+        976.06
+      ]
+    },
+    {
+      "id": "datatypeProperty56",
+      "iri": "No IRI setNo IRI setHDR_Gamma",
+      "baseIri": "No IRI set",
+      "label": "HDR_Gamma",
+      "domain": "0",
+      "range": "NodeId59",
+      "pos": [
+        -377.19,
+        919.6
+      ]
+    },
+    {
+      "id": "datatypeProperty58",
+      "iri": "No IRI setNo IRI setChineseName",
+      "baseIri": "No IRI set",
+      "label": "ChineseName",
+      "domain": "9",
+      "range": "NodeId61",
+      "pos": [
+        -347.93,
+        317.87
+      ]
+    },
+    {
+      "id": "datatypeProperty59",
+      "iri": "No IRI setNo IRI setEnglishName",
+      "baseIri": "No IRI set",
+      "label": "EnglishName",
+      "domain": "9",
+      "range": "NodeId62",
+      "pos": [
+        -366.24,
+        386.12
+      ]
+    },
+    {
+      "id": "objectProperty60",
+      "iri": "No IRI setNo IRI setNo IRI setCinemaCamera",
+      "baseIri": "No IRI set",
+      "label": "CinemaCamera_Movie",
+      "domain": "8",
+      "range": "9",
+      "pos": [
+        107.92,
+        473.1
+      ]
+    },
+    {
+      "id": "objectProperty61",
+      "iri": "No IRI setNo IRI setResolution_Movie",
+      "baseIri": "No IRI set",
+      "label": "Resolution_Movie",
+      "attributes": [
+        "object"
+      ],
+      "domain": "3",
+      "range": "9",
+      "pos": [
+        -153.81,
+        38.41
+      ]
+    },
+    {
+      "id": "datatypeProperty62",
+      "iri": "No IRI setNo IRI setFramerate",
+      "baseIri": "No IRI set",
+      "label": "Framerate",
+      "domain": "9",
+      "range": "NodeId63",
+      "pos": [
+        -347.68,
+        453.49
+      ]
+    },
+    {
+      "id": "objectProperty63",
+      "iri": "No IRI setNo IRI setColorSpace_Movie",
+      "baseIri": "No IRI set",
+      "label": "ColorSpace_Movie",
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "9",
+      "pos": [
+        -43.7,
+        254.7
+      ]
+    },
+    {
+      "id": "objectProperty64",
+      "iri": "No IRI setNo IRI setGamma_Movie",
+      "baseIri": "No IRI set",
+      "label": "Gamma_Movie",
+      "attributes": [
+        "object"
+      ],
+      "domain": "0",
+      "range": "9",
+      "pos": [
+        -200.6,
+        615.61
+      ]
+    },
+    {
+      "id": "objectProperty65",
+      "iri": "No IRI setobjectProperty65",
+      "baseIri": "No IRI set",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "9",
+      "pos": [
+        -99.81,
+        690.22
+      ]
+    },
+    {
+      "id": "datatypeProperty66",
+      "iri": "No IRI setNo IRI setNo IRI setNo IRI setManuLens",
+      "baseIri": "No IRI set",
+      "label": "Manufacturer_Lens",
+      "domain": "4",
+      "range": "NodeId64",
+      "pos": [
+        1455.33,
+        1682.53
+      ]
+    },
+    {
+      "id": "datatypeProperty67",
+      "iri": "No IRI setNo IRI setSet",
+      "baseIri": "No IRI set",
+      "label": "Set",
+      "domain": "4",
+      "range": "NodeId65",
+      "pos": [
+        1369.75,
+        1671.91
+      ]
+    },
+    {
+      "id": "datatypeProperty68",
+      "iri": "No IRI setNo IRI setZoom",
+      "baseIri": "No IRI set",
+      "label": "Zoom",
+      "domain": "4",
+      "range": "NodeId66",
+      "pos": [
+        1303.93,
+        1617.95
+      ]
+    },
+    {
+      "id": "datatypeProperty69",
+      "iri": "No IRI setNo IRI setS35Compatible",
+      "baseIri": "No IRI set",
+      "label": "S35Compatible",
+      "domain": "4",
+      "range": "NodeId68",
+      "pos": [
+        1597.72,
+        1581.95
+      ]
+    },
+    {
+      "id": "datatypeProperty70",
+      "iri": "No IRI setNo IRI setFrontDiameter",
+      "baseIri": "No IRI set",
+      "label": "FrontDiameter",
+      "domain": "4",
+      "range": "NodeId69",
+      "pos": [
+        1598.14,
+        1369
+      ]
+    },
+    {
+      "id": "datatypeProperty71",
+      "iri": "No IRI setNo IRI setAutoFocus",
+      "baseIri": "No IRI set",
+      "label": "AutoFocus",
+      "domain": "4",
+      "range": "NodeId70",
+      "pos": [
+        1454.74,
+        1295.48
+      ]
+    },
+    {
+      "id": "datatypeProperty72",
+      "iri": "No IRI setNo IRI setMinFocalLength",
+      "baseIri": "No IRI set",
+      "label": "MinFocalLength",
+      "domain": "4",
+      "range": "NodeId71",
+      "pos": [
+        1617.18,
+        1438.92
+      ]
+    },
+    {
+      "id": "datatypeProperty73",
+      "iri": "No IRI setNo IRI setMaxAperture",
+      "baseIri": "No IRI set",
+      "label": "MaxAperture",
+      "domain": "4",
+      "range": "NodeId72",
+      "pos": [
+        1545.35,
+        1316.84
+      ]
+    },
+    {
+      "id": "datatypeProperty74",
+      "iri": "No IRI setNo IRI setFullFrameCompatible",
+      "baseIri": "No IRI set",
+      "label": "FullFrameCompatible",
+      "domain": "4",
+      "range": "NodeId73",
+      "pos": [
+        1543.11,
+        1648.61
+      ]
+    },
+    {
+      "id": "datatypeProperty75",
+      "iri": "No IRI setNo IRI setMaxFocalLength",
+      "baseIri": "No IRI set",
+      "label": "MaxFocalLength",
+      "domain": "4",
+      "range": "NodeId74",
+      "pos": [
+        1618.59,
+        1508.93
+      ]
+    },
+    {
+      "id": "objectProperty76",
+      "iri": "No IRI setNo IRI setLensMount_Lens",
+      "baseIri": "No IRI set",
+      "label": "LensMount_Lens",
+      "attributes": [
+        "object"
+      ],
+      "domain": "5",
+      "range": "4",
+      "pos": [
+        1126.03,
+        1357.87
+      ]
+    },
+    {
+      "id": "datatypeProperty77",
+      "iri": "No IRI setNo IRI setManufacturer_Lighting",
+      "baseIri": "No IRI set",
+      "label": "Manufacturer_Lighting",
+      "domain": "2",
+      "range": "NodeId75",
+      "pos": [
+        2136.14,
+        -180.25
+      ]
+    },
+    {
+      "id": "datatypeProperty78",
+      "iri": "No IRI setNo IRI setName_Lighting",
+      "baseIri": "No IRI set",
+      "label": "Name_Lighting",
+      "domain": "2",
+      "range": "NodeId76",
+      "pos": [
+        2257.82,
+        -204.95
+      ]
+    },
+    {
+      "id": "datatypeProperty79",
+      "iri": "No IRI setNo IRI setLightSource",
+      "baseIri": "No IRI set",
+      "label": "LightSource",
+      "domain": "2",
+      "range": "NodeId77",
+      "pos": [
+        2379.77,
+        -44.87
+      ]
+    },
+    {
+      "id": "datatypeProperty80",
+      "iri": "No IRI setNo IRI setColorTemp",
+      "baseIri": "No IRI set",
+      "label": "ColorTemp",
+      "domain": "2",
+      "range": "NodeId78",
+      "pos": [
+        2083.01,
+        -37.47
+      ]
+    },
+    {
+      "id": "datatypeProperty81",
+      "iri": "No IRI setNo IRI setLuminance",
+      "baseIri": "No IRI set",
+      "label": "Luminance",
+      "domain": "2",
+      "range": "NodeId79",
+      "pos": [
+        2317.77,
+        114.67
+      ]
+    },
+    {
+      "id": "datatypeProperty82",
+      "iri": "No IRI setNo IRI setWattage",
+      "baseIri": "No IRI set",
+      "label": "Wattage",
+      "domain": "2",
+      "range": "NodeId80",
+      "pos": [
+        2191.92,
+        132.77
+      ]
+    },
+    {
+      "id": "datatypeProperty83",
+      "iri": "No IRI setNo IRI setManufacturer_LensMount",
+      "baseIri": "No IRI set",
+      "label": "Manufacturer_LensMount",
+      "domain": "5",
+      "range": "NodeId81",
+      "pos": [
+        894.77,
+        1397.17
+      ]
+    },
+    {
+      "id": "datatypeProperty84",
+      "iri": "No IRI setNo IRI setTypeName_LensMount",
+      "baseIri": "No IRI set",
+      "label": "TypeName_LensMount",
+      "domain": "5",
+      "range": "NodeId82",
+      "pos": [
+        809.95,
+        1428.71
+      ]
+    },
+    {
+      "id": "datatypeProperty85",
+      "iri": "No IRI setNo IRI setDiameter",
+      "baseIri": "No IRI set",
+      "label": "Diameter",
+      "domain": "5",
+      "range": "NodeId83",
+      "pos": [
+        738.1,
+        1410.33
+      ]
+    },
+    {
+      "id": "datatypeProperty86",
+      "iri": "No IRI setNo IRI setFlangeDistance",
+      "baseIri": "No IRI set",
+      "label": "FlangeDistance",
+      "domain": "5",
+      "range": "NodeId84",
+      "pos": [
+        689.3,
+        1349
+      ]
+    }
+  ]
+}
