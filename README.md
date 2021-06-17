@@ -8,8 +8,6 @@ Contect of this project included:
 2. Alex's Digital Imaging Ontology Specification 1.0  
 3. Visualization  
 
-Please use [WebVOWL](http://www.visualdataweb.de/webvowl/) to run [ADIO_Visualization](/ADIO_Visualization.json)
-
 ## SPARQL Endpoint for ADIO
 ADIO use blazegraph, you can make query here:
 
@@ -67,6 +65,7 @@ WHERE {
 
 Now, what if you want to know all the compatible lenses for each cinema cameras?
 ```
+#All the compatible lenses for each cinema cameras.
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://alexdigitalimagingontology.com/>
@@ -97,10 +96,10 @@ Check the Specification for the classes and properties of ADIO for detail inform
 
 Previous version are here (This ontology had been known as Alex's Cinematic Ontology before version 0.3):
 
-[ADIO Specification 0.4](/HistoryVersion_Specification/ADIO_Ver_0.4.md)
-[ACO Specification 0.3](/HistoryVersion_Specification/ACO_Ver_0.3.md)
-[ACO Specification 0.2](/HistoryVersion_Specification/ACO_Ver_0.2.md)
-[ACO Specification 0.1](/HistoryVersion_Specification/ACO_Ver_0.1.md)
+[ADIO Specification 0.4](/HistoryVersion_Specification/ADIO_Ver_0.4.md)  
+[ACO Specification 0.3](/HistoryVersion_Specification/ACO_Ver_0.3.md)  
+[ACO Specification 0.2](/HistoryVersion_Specification/ACO_Ver_0.2.md)  
+[ACO Specification 0.1](/HistoryVersion_Specification/ACO_Ver_0.1.md)  
 
 ## Visualization
 
