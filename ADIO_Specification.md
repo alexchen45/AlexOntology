@@ -1,15 +1,14 @@
 # Alex's Digital Imaging Ontology Specification 1.0
 <!-- omit in toc -->
-### Namespace Document 01 June 2021 - _Second Draft_
 
 **This version:**  
-http://alex.myontology.info/spec/20210617.html
+https://github.com/alexchen45/AlexOntology/blob/main/ADIO_Specification.md
 
 **Latest version:**  
-http://alex.myontology.info/spec/20210617.html
+https://github.com/alexchen45/AlexOntology/blob/main/ADIO_Specification.md
 
 **Previous version:**  
-http://alex.myontology.info/spec/20210615.html
+https://github.com/alexchen45/AlexOntology/blob/main/HistoryVersion_Specification/ADIO_Ver_0.4.md
 
 **Author:**  
 [陳澤宇](mailto:alexchen.ms07@nctu.edu.tw), National Yang Ming Chiao Tung University  
@@ -109,7 +108,7 @@ Knowledge regarding the how camera output image signals.
 
 #### CinemaCamera
 
-A list of mainstream cinema cameras.
+Digital camera designed to be used on movie production.
 
 | Property Name           | Expected Type                                             | Description                                                                                                                 |
 | ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -139,8 +138,7 @@ Pixel count of the image.
 
 
 #### Codec
-
-A list of formats used for encoding image captured by cameras.
+Formats used for encoding image captured by cameras.
 
 | Property Name           | Expected Type                                             | Description                                                                                                                 |
 | ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -159,7 +157,7 @@ Filter in front of the sensor which generates colors.
 | [`BlueRatio`](#preda1_1) | `xsd:float` | Ratio of blue signal collected by the sensor. |
 
 #### ColorSpace
-The volumn of color of which the image is capable of displaying. Also known as color gamut.
+The area of color of which the image is capable of displaying. Also known as color gamut.
 
 | Property Name           | Expected Type                                             | Description                                                                                                                 |
 | ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -179,8 +177,7 @@ The way luminance in real world converted to luminance level on the image.
 | [`GreyLevel`](#preda1_1) | `xsd:float` | The level on the gamma curve of which 18% grey is mapped on. |
 
 #### Movie
-
-The parameters which cause direct effect on image. 
+Consists of footage captured by cameras. Can be viewed as a whole.
 
 | Property Name           | Expected Type                                             | Description                                                                                                                 |
 | ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -195,8 +192,7 @@ The parameters which cause direct effect on image.
 
 
 #### Lens
-
-Component used to mapped light from real world on an image surface.
+Component used to transmit light from real world to an imaging surface.
 
 | Property Name           | Expected Type                                             | Description                                                                                                                 |
 | ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -213,7 +209,6 @@ Component used to mapped light from real world on an image surface.
 | [`MountType`](####LensMount) | `xsd:string` | The mount connecting cameras and lenses. |
 
 #### Lighting
-
 Equipment used to create luminance in movie production.
 
 | Property Name           | Expected Type                                             | Description                                                                                                                 |
@@ -257,6 +252,8 @@ Note that the lexical spaces of xsd:float and xsd:double are exactly the same; t
 ## Recent Changes
 <!-- omit in toc -->
 1.0:
+- Refine description of classes and properties.
+- Move the whole specification to GitHub.
 - Replace all xsd:date with xsd:gYear.
 - Change Width property and Height property of CameraSensor class from xsd:int to xsd:float.
 - Delete Resolution property from Codec class.
