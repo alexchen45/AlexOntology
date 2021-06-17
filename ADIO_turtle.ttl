@@ -1,0 +1,753 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://alexdigitalimagingontology.com/>
+
+# Arri Alexa Mini
+:ALEXA_MINI a :CinemaCamera ;
+	:Manufacturer "ARRI" ;
+	:Model "Alexa Mini" ;
+	:ReleaseYear "2015"^^xsd:gYear ;
+	:Sensor :AlevIII ;
+	:SignalProcessingType :SDI_6G , :SDI_3G ;
+	:MaxFramerate 60 ;
+	:MaxDataRate 1115 ;
+	:Codec :ProRes4444 , :ProRes422 , :ARRIRAW ;
+	:LensMount :PL ;
+	:NativeISO 800 ;
+	:DynamicRange 15 ;
+	:ColorSpace :REC709 , :REC2020 , :ALEXAWideGamut ;
+	:Gamma :GAMMA24  , :PQ , :LOGC .
+
+# Canon C200
+:C200 a :CinemaCamera ;
+	:Manufacturer "Canon" ;
+	:Model "Canon EOS C200" ;
+	:ReleaseYear "2017"^^xsd:gYear ;
+	:Sensor :CanonS35 ;
+	:SignalProcessingType :HDMI2 , :SDI_3G ;
+	:MaxFramerate 60 ;
+	:MaxDataRate 1000 ;
+	:Codec :CanonRaw , :H264 ;
+	:LensMount :EF ;
+	:NativeISO :640 ;
+	:DynamicRange :12 ;
+	:ColorSpace :REC709 ;
+	:Gamma :CLOG , :GAMMA24 .
+
+# Panasonic S1H
+:S1H a :CinemaCamera ;
+	:Manufacturer "Panasonic" ;
+	:Model "Panasonic Lumix S1H" ;
+	:ReleaseYear "2019"^^xsd:gYear ;
+	:Sensor :IMX410 ;
+	:SignalProcessingType :HDMI2 ;
+	:MaxFramerate 60 ;
+	:MaxDataRate 400 ;
+	:Codec :H264 , :H265 ;
+	:LensMount :L ;
+	:NativeISO 640 , 4000 ;
+	:DynamicRange 14 ;
+	:ColorSpace :REC709 , :REC2020 , :VGAMUT ;
+	:Gamma :GAMMA24 , :HLG , :VLOG .
+
+# Sony A7SIII
+:A7SIII a :CinemaCamera ;
+	:Manufacturer "Sony" ;
+	:Model "Sony ILCE-7SM3" ;
+	:ReleaseYear "2020"^^xsd:gYear ;
+	:Sensor :SonyFF ;
+	:SignalProcessingType :HDMI2-1 , :WIFI ;
+	:MaxFramerate 120 ;
+	:MaxDataRate 1200 ;
+	:Codec :H264 , :H265 ;
+	:LensMount :E ;
+	:NativeISO 640 , 12800 ;
+	:DynamicRange 14 ;
+	:ColorSpace :REC709 , :SGAMUT , :REC2020 ;
+	:Gamma :GAMMA24 , :HLG , :SLOG .
+
+# BMPCC 4K 
+:BMPCC4K a :CinemaCamera ;
+	:Manufacturer "Blackmagic" ;
+	:Model "Blackmagic Pocket Cinema Camera 4K" ;
+	:ReleaseYear "2018"^^xsd:gYear ;
+	:Sensor  :IMX294 ;
+	:SignalProcessingType :HDMI1-4 , :SDI_3G ;
+	:MaxFramerate 60 ;
+	:MaxDataRate 1000 ;
+	:Codec :BRAW , :ProRes422 ;
+	:LensMount :MTF ;
+	:NativeISO 800 , 1250 ;
+	:DynamicRange 12 ;
+	:ColorSpace :BMDFilm , :BMDVideo ;
+	:Gamma :GAMMA24 , :BMDLOG .
+
+# Red Komodo 
+:KOMODO a :CinemaCamera ;
+	:Manufacturer "Red" ;
+	:Model "Red Komodo" ;
+	:ReleaseYear "2020"^^xsd:gYear ;
+	:Sensor  :KomodoSensor ;
+	:SignalProcessingType :SDI_3G , :WIFI ;
+	:MaxFramerate 60 ;
+	:MaxDataRate 1128 ;
+	:Codec :R3D , :ProRes422 ;
+	:LensMount :RF ;
+	:NativeISO 800 ;
+	:DynamicRange 16 ;
+	:ColorSpace :REC709 , :REC2020 , :REDWideGamutRGB ;
+	:Gamma :REC709 , :LOG3G10 .
+
+#ALEVIII
+:ALEVIII a :CameraSensor ;
+	:Manufacturer "ARRI" ;
+	:Model "ALEV III A3X" ;
+	:Width 28.25 ;
+	:Height 18.17 ;
+	:ColorFilterArray :BAYER ;
+	:Resolution :3-4K .
+
+#CanonS35
+:CanonS35 a :CameraSensor ;
+	:Manufacturer "Canon" ;
+	:IlluminationType "FSI" ;
+	:Width 27.3 ;
+	:Height 14.4 ;
+	:ColorFilterArray :BAYER ;
+	:Resolution :4K .
+
+#IMX410
+:IMX410 a :CameraSensor ;
+	:Manufacturer "Sony" ;
+	:Model "Sony IMX410CQK" ;
+	:IlluminationType "BSI" ;
+	:Width 36 ;
+	:Height 24 ;
+	:ColorFilterArray :BAYER ;
+	:Resolution :4K .
+
+#IMX294
+:IMX294 a :CameraSensor ;
+	:Manufacturer "Sony" ;
+	:Model "Sony IMX294CJK" ;
+	:IlluminationType "BSI" ;
+	:Width 18 ;
+	:Height 12 ;
+	:ColorFilterArray :QuadBAYER ;
+	:Resolution :4K .
+
+#Komodo Sensor
+:KomodoSensor a :CameraSensor ;
+	:Manufacturer "Red" ;
+	:Width 27.03 ;
+	:Height 14.26 ;
+	:Resolution :6K .
+
+#SonyFF
+:SonyFF a :CameraSensor ;
+	:Manufacturer "Sony" ;
+	:IlluminationType "BSI" ;
+	:Width 36 ;
+	:Height 24 ;
+	:ColorFilterArray :BAYER ;
+	:Resolution :4K .
+
+#HDMI1-4
+:HDMI1-4 a :CameraSignalProcessing ;
+	:ProtocolType "HDMI" ;
+	:MaxResolutionFPS "4K@30" ;
+	:PhysicalMedium "Copper Wire" , "Optical Fiber" .
+
+#HDMI2
+:HDMI2 a :CameraSignalProcessing ;
+	:ProtocolType "HDMI" ;
+	:MaxResolutionFPS "4K@60" ;
+	:PhysicalMedium "Copper Wire" , "Optical Fiber" .
+
+#HDMI2-1
+:HDMI2-1 a :CameraSignalProcessing ;
+	:ProtocolType "HDMI" ;
+	:MaxResolutionFPS "8K@60" ;
+	:PhysicalMedium "Copper Wire" , "Optical Fiber" .
+
+#SDI_3G
+:SDI_3G a :CameraSignalProcessing ;
+	:ProtocolType "SDI" ;
+	:MaxResolutionFPS "1080p@60" ;
+	:PhysicalMedium "Copper Wire" .
+
+#SDI_6G
+:SDI_6G a :CameraSignalProcessing ;
+	:ProtocolType "SDI" ;
+	:MaxResolutionFPS "4K@30" ;
+	:PhysicalMedium "Copper Wire" .
+
+#SDI_12G
+:SDI_12G a :CameraSignalProcessing ;
+	:ProtocolType "SDI" ;
+	:MaxResolutionFPS "4K@60" ;
+	:PhysicalMedium "Copper Wire" .
+
+#WIFI
+:WIFI a :CameraSignalProcessing ;
+	:ProtocolType "Internet Protocol" ;
+	:PhysicalMedium "Electromagnetic Waves" .
+
+#4K
+:4K a :Resolution ;
+	:Name "4K" , "Ultra HD" ;
+	:Standard "ITU-R BT.1201-1" ;
+	:Width 3840 ;
+	:Height 2160 .
+
+#1080p
+:1080p a :Resolution ;
+	:Name "Full HD" , "1080p" ;
+	:Standard "ATSC" , "DVB" ;
+	:Width 1920 ;
+	:Height 1080 .
+
+#3-4K
+:3-4K a :Resolution ;
+	:Name "3.4K" ;
+	:Width 3392 ;
+	:Height 2200 .
+
+#6K
+:6K a :Resolution ;
+	:Name "6K" ;
+	:Width 6144 ;
+	:Height 3240 .
+
+#8K
+:8K a :Resolution ;
+	:Name "8K" , "8K UHD" ;
+	:Standard "SMPTE ST 2036-1" , "ITU-R BT.2020" ;
+	:Width 7680 ;
+	:Height 4320 .
+
+#ARRI RAW
+:ARRIRAW a :Codec ;
+	:DataRate 1340 ;
+	:BitDepth 12 .
+
+#ProRes Raw
+:ProResRaw a :Codec ;
+	:DataRate 1800 ;
+	:BitDepth 12 .
+
+
+#ProRes 422
+:ProRes422 a :Codec ;
+	:DataRate 588 ;
+	:BitDepth 10 ;
+	:ColorSampling "422" .
+
+#ProRes 4444
+:ProRes4444 a :Codec ;
+	:DataRate 2000 ;
+	:BitDepth 12 ;
+	:ColorSampling "444" .
+
+#Blackmagic RAW
+:BRAW a :Codec ;
+	:DataRate 1464 ;
+	:BitDepth 12 .
+
+#Canon Raw
+:CanonRaw a :Codec ;
+	:DataRate 1000 ;
+	:BitDepth 12 , 10 .
+
+#H.264
+:H264 a :Codec ;
+	:BitDepth 8 , 10 ;
+	:ColorSampling "422" , "420" .
+
+#H.265
+:H265 a :Codec ;
+	:BitDepth 8 , 10 ;
+	:ColorSampling "422" , "420" .
+
+#R3D
+:R3D a :Codec ;
+	:DataRate 1208 ;
+	:BitDepth 12 .
+
+#BAYER
+:BAYER a :ColorFilterArray;
+	:TypeName "Bayer" ;
+	:RedRatio 0.25 ;
+	:GreenRatio 0.5 ;
+	:BlueRatio 0.25 .
+
+#QuadBAYER
+:QuadBAYER a :ColorFilterArray;
+	:TypeName "Quad Bayer" ;
+	:RedRatio 0.25 ;
+	:GreenRatio 0.5 ;
+	:BlueRatio 0.25 .
+
+#Monochrome
+:Monochrome a :ColorFilterArray;
+	:TypeName "Black and White" ;
+	:RedRatio 0.33 ;
+	:GreenRatio 0.33 ;
+	:BlueRatio 0.33 .
+
+#RGB
+:RGBCFA a :ColorFilterArray;
+	:TypeName "RGB Color Filter Array" ;
+	:RedRatio 0.33 ;
+	:GreenRatio 0.33 ;
+	:BlueRatio 0.33 .
+
+#REC709
+:REC709 a :ColorSpace;
+	:Name "Rec.709" , "BT.709" ;
+	:HDR "false"^^xsd:boolean ;
+	:Standard "ITU-R BT.709" ;
+	:WhitePoint "0.3127,0.3290" .
+
+#DCI-P3
+:DCIP3 a :ColorSpace;
+	:Name "DCI-P3" , "P3-D65" ;
+	:HDR "true"^^xsd:boolean ;
+	:Standard "SMPTE EG 432-1" ;
+	:WhitePoint "D65" .
+
+#REC2020
+:REC2020 a :ColorSpace;
+	:Name "Rec.2020" , "BT.2020" ;
+	:HDR "true"^^xsd:boolean ;
+	:Standard "ITU-R BT.2020" ;
+	:WhitePoint "0.3127,0.3290" .
+
+#ALEXAWideGamut
+:ALEXAWideGamut a :ColorSpace;
+	:Name "Arri Alexa Wide Color Gamut" ;
+	:HDR "true"^^xsd:boolean ;
+	:WhitePoint "D65" .
+
+#VGAMUT
+:VGAMUT a :ColorSpace;
+	:Name "Panasonic V-Gamut" ;
+	:HDR "true"^^xsd:boolean ;
+	:WhitePoint "D65" .
+
+#SGAMUT
+:SGAMUT a :ColorSpace;
+	:Name "Sony S.Gamut" ;
+	:HDR "true"^^xsd:boolean ;
+	:WhitePoint "D65" .
+
+#BMDFilm
+:BMDFilm a :ColorSpace;
+	:Name "Blackmagic Film" ;
+	:HDR "true"^^xsd:boolean ;
+	:WhitePoint "D65" .
+
+#BMDVideo
+:BMDVideo a :ColorSpace;
+	:Name "Blackmagic Video" ;
+	:HDR "false"^^xsd:boolean ;
+	:WhitePoint "D65" .
+
+#REDWideGamutRGB
+:REDWideGamutRGB a :ColorSpace;
+	:Name "Red Wide Gamut RGB" ;
+	:HDR "true"^^xsd:boolean ;
+	:WhitePoint "D65" .
+
+#GAMMA24
+:GAMMA24 a :Gamma ;
+	:FunctionType "Gamma Function" ;
+	:HDR "false"^^xsd:boolean ;
+	:GreyLevel 0.5 .
+
+#PQ
+:GAMMA24 a :Gamma ;
+	:FunctionType "Perceptual Quantizer Function" ;
+	:HDR "true"^^xsd:boolean ;
+	:GreyLevel 0.18  .
+
+#LOGC
+:GAMMA24 a :Gamma ;
+	:FunctionType "Log Function" ;
+	:HDR "false"^^xsd:boolean ;
+	:GreyLevel 0.39 .
+
+#VLOG
+:GAMMA24 a :Gamma ;
+	:FunctionType "Log Function" ;
+	:HDR "false"^^xsd:boolean ;
+	:GreyLevel 0.42 .
+
+#SLOG
+:GAMMA24 a :Gamma ;
+	:FunctionType "Log Function" ;
+	:HDR "false"^^xsd:boolean ;
+	:GreyLevel 0.41 .
+
+#CLOG
+:GAMMA24 a :Gamma ;
+	:FunctionType "Log Function" ;
+	:HDR "false"^^xsd:boolean ;
+	:GreyLevel 0.33 .
+
+#HLG
+:GAMMA24 a :Gamma ;
+	:FunctionType "Hybrid Log-Gamma Function" ;
+	:HDR "true"^^xsd:boolean ;
+	:GreyLevel 0.25 .
+
+#BMDLOG
+:GAMMA24 a :Gamma ;
+	:FunctionType "Log Function" ;
+	:HDR "false"^^xsd:boolean .
+
+#LOG3G10
+:GAMMA24 a :Gamma ;
+	:FunctionType "Log Function" ;
+	:HDR "false"^^xsd:boolean ;
+	:GreyLevel 0.33 .
+
+#NanliaoHarbour
+:NanliaoHarbour a :Movie ;
+	:ChineseName "南寮漁港" ;
+	:EnglishName "Nanliao Harbour" ;
+	:CinemaCamera :S1H ;
+	:Resolution :4K ;
+	:Framerate 24 ;
+	:ColorSpace :REC2020 ;
+	:Gamma :PQ ;
+	:Codec :H265 .
+
+#AnimalPortraits
+:AnimalPortraits a :Movie ;
+	:ChineseName "動物肖像" ;
+	:EnglishName "Animal Portraits" ;
+	:CinemaCamera :C200 ;
+	:Resolution :4K ;
+	:Framerate 59.94 ;
+	:ColorSpace :REC709 ;
+	:Gamma :GAMMA24 ;
+	:Codec :H264 .
+
+#Ogygia
+:Ogygia a :Movie ;
+	:ChineseName "奧吉吉亞" ;
+	:EnglishName "Ogygia" ;
+	:CinemaCamera :A7SIII ;
+	:Resolution :4K ;
+	:Framerate 23.976 ;
+	:ColorSpace :REC709 ;
+	:Gamma :GAMMA24 ;
+	:Codec :ProRes422 .
+
+#TheEscape
+:TheEscape a :Movie ;
+	:ChineseName "夜奔" ;
+	:EnglishName "The Escape" ;
+	:CinemaCmaera :BMPCC4K ;
+	:Resolution :1080p ;
+	:Framerate 24 ;
+	:ColorSpace :REC709 ;
+	:Gamma :GAMMA24 ;
+	:Codec :H264 .
+
+
+#Milvus25
+:MILVUS25 a :Lens ;
+	:Manufacturer "Zeiss" ;
+	:Set "Zeiss Milvus" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 25 ;
+	:FrontDiameter 82 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "false"^^xsd:boolean ;
+	:MountType :EF .
+
+#Milvus35
+:MILVUS35 a :Lens ;
+	:Manufacturer "Zeiss" ;
+	:Set "Zeiss Milvus" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 35 ;
+	:FrontDiameter 77 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "false"^^xsd:boolean ;
+	:MountType :EF .
+
+#Milvus50
+:MILVUS50 a :Lens ;
+	:Manufacturer "Zeiss" ;
+	:Set "Zeiss Milvus" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 50 ;
+	:FrontDiameter 82 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "false"^^xsd:boolean ;
+	:MountType :EF .
+
+#Milvus85
+:MILVUS85 a :Lens ;
+	:Manufacturer "Zeiss" ;
+	:Set "Zeiss Milvus" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 85 ;
+	:FrontDiameter 82 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "false"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma20
+:SIGMA20 a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 20 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma24
+:SIGMA24 a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 24 ;
+	:FrontDiameter 72 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma35
+:SIGMA35 a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 35 ;
+	:FrontDiameter 67 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma50
+:SIGMA50 a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 50 ;
+	:FrontDiameter 67 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma85
+:SIGMA85 a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "false"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 85 ;
+	:FrontDiameter 86 ;
+	:MaxAperture 1.4 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma1835
+:SIGMA1835 a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "true"^^xsd:boolean ;
+	:FullFrameCompatible "false"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 18 ;
+	:MinFocalLength 25 ;
+	:FrontDiameter 72 ;
+	:MaxAperture 1.8 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma50100
+:SIGMA50100 a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "true"^^xsd:boolean ;
+	:FullFrameCompatible "false"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 50 ;
+	:MinFocalLength 100 ;
+	:FrontDiameter 82 ;
+	:MaxAperture 1.8 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma2470 DG DN E
+:SIGMA2470DNE a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "true"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 24 ;
+	:MinFocalLength 70 ;
+	:FrontDiameter 82 ;
+	:MaxAperture 2.8 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :E .
+
+#Sigma2470 DG DN L
+:SIGMA2470DNL a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "true"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 24 ;
+	:MinFocalLength 70 ;
+	:FrontDiameter 82 ;
+	:MaxAperture 2.8 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :L .
+
+#Canon70200 II
+:CANON70200II a :Lens ;
+	:Manufacturer "Canon" ;
+	:Set "Canon EF L" ;
+	:Zoom "true"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 70 ;
+	:MinFocalLength 200 ;
+	:FrontDiameter 82 ;
+	:MaxAperture 2.8 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Sigma1424
+:SIGMA1424 a :Lens ;
+	:Manufacturer "Sigma" ;
+	:Set "Sigma Art" ;
+	:Zoom "true"^^xsd:boolean ;
+	:FullFrameCompatible "true"^^xsd:boolean ;
+	:S35Compatible "true"^^xsd:boolean ;
+	:MaxFocalLength 14 ;
+	:MinFocalLength 24 ;
+	:MaxAperture 2.8 ;
+	:AutoFocus "true"^^xsd:boolean ;
+	:MountType :EF .
+
+#Aputure120D
+:120D a :Lighting ;
+	:Manufacturer "Aputure" ;
+	:Name "Aputure COB 120D" ;
+	:LightSource "LED" ;
+	:Luminance 4700 ;
+	:Wattage 120 ;
+	:ColorTemp 5600 .
+	
+#Aputure300DII
+:300DII a :Lighting ;
+	:Manufacturer "Aputure" ;
+	:Name "Aputure COB 300D-II" ;
+	:LightSource "LED" ;
+	:Luminance 11000 ;
+	:Wattage 350 ;
+	:ColorTemp 5600 .
+
+#Aputure120T
+:120T a :Lighting ;
+	:Manufacturer "Aputure" ;
+	:Name "Aputure COB 120T" ;
+	:LightSource "LED" ;
+	:Luminance 4700 ;
+	:Wattage 120 ;
+	:ColorTemp 3000 .
+
+#NanliteForza60
+:FORZA50 a :Lighting ;
+	:Manufacturer "Nanlite" ;
+	:Name "Nanlite Forza 60" ;
+	:LightSource "LED" ;
+	:Luminance 3139 ;
+	:Wattage 60 ;
+	:ColorTemp 5600 .
+
+#ARRI 1.8K
+:M18 a :Lighting ;
+	:Manufacturer "ARRI" ;
+	:Name "ARRI M18" ;
+	:LightSource "HMI" ;
+	:Luminance 22950 ;
+	:Wattage 1800 ;
+	:ColorTemp 5600 .
+
+#ARRI 4K
+:M40 a :Lighting ;
+	:Manufacturer "ARRI" ;
+	:Name "ARRI M40" ;
+	:LightSource "HMI" ;
+	:Luminance 40300 ;
+	:Wattage 4000 ;
+	:ColorTemp 5600 .
+
+#EF
+:EF a :LensMount ;
+	:Manufacturer "Canon" ;
+	:TypeName "EF" ;
+	:Diameter 54 ;
+	:FlangeDistance 44 .
+
+#E
+:E a :LensMount ;
+	:Manufacturer "Sony" ;
+	:TypeName "E" ;
+	:Diameter 44.5 ;
+	:FlangeDistance 18 .
+
+#L
+:L a :LensMount ;
+	:Manufacturer "Leica" ;
+	:TypeName "L" ;
+	:Diameter 51.6 ;
+	:FlangeDistance 20 .
+
+#RF
+:RF a :LensMount ;
+	:Manufacturer "Canon" ;
+	:TypeName "RF" ;
+	:Diameter 54 ;
+	:FlangeDistance 20 .
+
+#MTF
+:MTF a :LensMount ;
+	:Manufacturer "Panasonic" ;
+	:TypeName "Micro Four Thirds" ;
+	:Diameter 38 ;
+	:FlangeDistance 19.25 .
+
+#PL
+:PL a :LensMount ;
+	:Manufacturer "ARRI" ;
+	:TypeName "Positive Lock" ;
+	:Diameter 54 ;
+	:FlangeDistance 52 .
