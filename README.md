@@ -5,7 +5,7 @@ This project is Alex's term project for the course "A Computational Journey Towa
 Contect of this project included:  
   
 1. SPARQL Endpoint  
-2. Alex's Digital Imaging Ontology Specification 1.0  
+2. Alex's Digital Imaging Ontology Specification 
 3. Visualization  
 
 ## SPARQL Endpoint for ADIO
@@ -92,7 +92,7 @@ The .ttl file used for this SPARQL Endpoint can be downloaded [here](/ADIO_turtl
 
 Check the Specification for the classes and properties of ADIO for detail information regarding this ontology.
 
-[ADIO Specification 1.0](/ADIO_Specification_1.0.md)
+[ADIO Specification 1.0](/ADIO_Specification.md)
 
 Previous version are here (This ontology had been known as Alex's Cinematic Ontology before version 0.3):
 
