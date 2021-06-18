@@ -9,7 +9,11 @@ Contect of this project included:
 3. Visualization  
 
 ## SPARQL Endpoint for ADIO
-ADIO use blazegraph, you can make query here:
+ADIO uses blazegraph, you can access the RDF here:
+
+[http://45.79.90.173:9999/sparql](http://45.79.90.173:9999/sparql)
+
+You can also make query via GUI here:
 
 [Blazegraph Workbench](http://45.79.90.173:9999/blazegraph/) 
 
