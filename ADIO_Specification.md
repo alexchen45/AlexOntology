@@ -8,7 +8,7 @@ https://github.com/alexchen45/AlexOntology/blob/main/ADIO_Specification.md
 https://github.com/alexchen45/AlexOntology/blob/main/ADIO_Specification.md
 
 **Previous version:**  
-https://github.com/alexchen45/AlexOntology/blob/main/HistoryVersion_Specification/ADIO_Ver_0.4.md
+https://github.com/alexchen45/AlexOntology/blob/main/HistoryVersion_Specification/ADIO_Ver_1.0.md
 
 **Author:**  
 [陳澤宇](mailto:alexchen.ms07@nctu.edu.tw), National Yang Ming Chiao Tung University  
@@ -16,23 +16,21 @@ https://github.com/alexchen45/AlexOntology/blob/main/HistoryVersion_Specificatio
 
 **Contributors:**  
 Members of NYCU Workshop: [A Computational Journey Towards Humanities and Creativity: Starting from Graphs](http://e.cctcc.art/c1632).
-<!-- omit in toc -->
-## Abstract
-Alex's Digital Imaging Ontology(ADIO) specification describe a way to describe dictionary of named properties and classes related to cinematography, video production and digital imaging technology.
 
-<!-- omit in toc -->
-## Table of Contents
-[TOC]
+## Abstract
+Alex's Digital Imaging Ontology(ADIO, formerly known as Alex's Cinematic Ontology) specification describes a way to specify dictionary of named properties and classes related to digital imaging process in cinematography and video production.
 
 ## Alex's Digital Imaging Ontology at a glance
 
 ADIO describes cinema items and technologies in a practical manner. The relationship between an item and another item or an item and a technology is described as classes and properties.
 
-The gear-related terms of ADIO is based on the open resource of ARRI Group, a Germany company famous for manufactoring cinema gears and making industry standard for movie production. ARRI manufactors cinema camera, lenses, lighting equipment and other accessories, their product has been held as gold standard for movie equipment.
+The cinema camera-related terms and properties of ADIO is based on the open resource of ARRI Group, a Germany company famous for manufactoring cinema gears and making industry standard for movie production. ARRI manufactors cinema camera, lenses, lighting equipment and other accessories, their product has been held as gold standard for movie equipment.
+
+The lens-related properties of ADIO is based on the open resource of Zeiss Inc., a Germany-based lens manufacturor who is famous for making high quality cinematic lenses as well as glasses and coating technology.
 
 The technology-related terms of ADIO is based on standard provided by Society of Motion Picture and Television Engineers(SMPTE) and International Telecommunication Union(ITU). SMPTE and ITU make the most widely recognized standard for digital cinema and broadcasting.
 
-Main MyOntology terms, grouped in categories. (按分類排列，附連結)
+Terms (sorted by catagories)
 
 - **Fundamental Knowledges** – Fundemental knowledge behind the technology of how cinema equipment works. They are not necessarily directly related to movie production, but understanding them is a huge part of understanding digital imaging process.  
 - **Technologies** – Practical skills that are directly related to movie production. The use of technologies is correlated to the skills of cinematographer.
@@ -251,6 +249,9 @@ Note that the lexical spaces of xsd:float and xsd:double are exactly the same; t
 
 ## Recent Changes
 <!-- omit in toc -->
+1.1:
+- Minor changes in description. Specified sources for some of the terms.
+
 1.0:
 - Refine description of classes and properties.
 - Move the whole specification to GitHub.
