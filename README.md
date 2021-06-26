@@ -1,11 +1,11 @@
-# AlexOntology  
+# Alex's Digital Imaging Ontology (formerly known as Alex's Cinematic Ontology)
 
 This project is Alex's term project for the course "A Computational Journey Towards Humanities and Creativity: Starting from Graphs" of National Yang Ming Chiao Tung University.  
 
 Contect of this project included:  
   
-1. SPARQL Endpoint  
-2. Alex's Digital Imaging Ontology Specification 
+1. SPARQL Endpoint (for both human and machine)
+2. Specification for Alex's Digital Imaging Ontology 
 3. Visualization  
 
 ## SPARQL Endpoint for ADIO
